@@ -65,6 +65,12 @@ form > * > input {
 
 .form-group input {
     width: 100%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form-group input:hover {
+    border: 2px solid blue;
 }
 
 .instruction {
@@ -99,4 +105,23 @@ form > * > input {
     flex-grow: 1;
     padding-block: .5rem;
     border-radius: 5px;
+    border: none;
+    color: white;
+    transition: .3s;
+}
+
+.reset {
+    background-color: gray;
+}
+
+.reset:hover {
+    box-shadow: 0 0 5px black;
+}
+
+.button {
+    background-color: rgb(74, 74, 243);
+}
+
+.button:hover {
+    box-shadow: 0 0 5px blue;
 }
