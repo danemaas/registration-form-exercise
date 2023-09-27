@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    padding-block: 1rem;
+}
+
+.container {
+    width: 376px;
+}
+
+.nav-menu {
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: black;
+}
+
+.notif-success {
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+form > * > input {
+    border: 2px solid black;
+    outline: none;
+    padding-left: 1rem;
+    padding-block: 0.5rem;
+    border-radius: 5px;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+.instruction {
+    font-size: .65rem;
+    width: 250px;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.error-msg {
+    color: red;
+    font-style: italic;
+    font-size: .65rem;
+    text-align: end;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.btn-group > * {
+    flex-grow: 1;
+    padding-block: .5rem;
+    border-radius: 5px;
+}
