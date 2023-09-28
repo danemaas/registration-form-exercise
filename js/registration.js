@@ -110,7 +110,7 @@ function validateUserName(u) {
 //validate if password input is correct base on the regular experession
 //display error message if invalid
 function validatePassword(p) {
-    const passwordCheck = /^[a-zA-Z0-9]*$/;
+    const passwordCheck = /^[a-zA-Z0-9]{8}$/;
 
     if(passwordCheck.test(p)) {
         document.getElementById('errorPW').classList.add('d-none');
@@ -118,7 +118,7 @@ function validatePassword(p) {
         errorCounter--;
     } else {
         document.getElementById('errorPW').classList.remove('d-none');
-        document.getElementById('errorPW').innerHTML = "No special characters and whitespaces";
+        document.getElementById('errorPW').innerHTML = "No special characters, whitespaces and atleast 8 characters";
         document.getElementById('password').classList.add('error');
         errorCounter++;
     }
