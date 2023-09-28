@@ -1,8 +1,8 @@
 const form = document.querySelector("form");
+const loginForm = document.querySelector("form");
 const submitBtn = document.querySelector(".button");
+const loginBtn = document.querySelector('.login-btn');
 const resetBtn = document.querySelector(".reset");
-const navBtn1 = document.getElementById('register');
-const navBtn2 = document.getElementById('login');
 
 let userData = {
   firstName: "",
@@ -13,7 +13,7 @@ let userData = {
   confirmPassword: "",
 };
 
-let errorCounter = 0;
+let errorCounter = 0; //initialize error counter to 0
 
 resetBtn.addEventListener('click', () => {
     form.reset();

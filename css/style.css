@@ -125,3 +125,18 @@ form > * > input {
 .button:hover {
     box-shadow: 0 0 5px blue;
 }
+
+.login-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 200px;
+    margin: 0 auto;
+    padding-block: .5rem;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.login-btn:hover {
+    box-shadow: 0 0 5px blue;
+}
